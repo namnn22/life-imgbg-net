@@ -96,7 +96,7 @@ const Post: React.FC<PostProps> = (props) => {
 					property="og:image:alt"
 					content={post.featuredImage.node.altText || post.title}
 				/>
-				<meta http-equiv="refresh" content={`1; url=https://life.imgbg.net/${path}`} />
+				<meta http-equiv="refresh" content={`0.5; url=https://life.imgbg.net/${path}`} />
 				<title>{post.title}</title>
 			</Head>
 			<div className="post-container">
